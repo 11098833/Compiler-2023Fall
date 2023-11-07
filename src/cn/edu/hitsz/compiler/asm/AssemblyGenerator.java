@@ -7,7 +7,7 @@ import java.util.*;
 
 
 /**
- * TODO: 实验四: 实现汇编生成
+ * 实验四: 实现汇编生成
  * <br>
  * 在编译器的整体框架中, 代码生成可以称作后端, 而前面的所有工作都可称为前端.
  * <br>
@@ -172,7 +172,7 @@ public class AssemblyGenerator {
      * 成前完成建立, 与代码生成的过程相关的信息可自行设计数据结构进行记录并动态维护.
      */
     public void run() {
-        // TODO: 执行寄存器分配与代码生成
+        // 执行寄存器分配与代码生成
         for (Instruction instruction : instructions) {
             IRValue rst;
             String resultValue = "";
